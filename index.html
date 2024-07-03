@@ -8,11 +8,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>ITDEV.win</title>
+    <title>IT-NLTC</title>
   </head>
   <body>
     <center>
-    <h1>Check-In/Out Log</h1>
+    <h1>ระบบลงเวลา เข้า - ออก ฝึกงาน</h1>
+      <h1>สาขาวิชาเทคโนโลยีสารสนเทศ</h1>
 <p>Click the button to check-in or check-out with your coordinates.</p>
 <div id="cin" class="invisible"><button type="button" class="btn btn-success" onclick="getLocation()">Check-In</button></div>
 <div id="cout" class="invisible"><button id="cout" type="button" class="btn btn-danger" onclick="getLocationOut()">Check-Out</button></div>
@@ -25,8 +26,7 @@ window.onload = function() {
   initializeLiff('1654370606-geWqlVLk');
 }
 
-const xurl = "https://script.google.com/macros/s/AKfycbwSMA7JxbQTLNRuhNaPJPz0A-4wvAit0jIr4tFzP6ypL4GAhC91wV5qBOh_FIuhIidpsw/exec";
-
+const xurl = "https://script.google.com/macros/s/AKfycbxB6wvbd0q7RoChjo9f8D8op4SKlpqRxaljRqa3c9VeKd4_KGhJhd2-_7Aa2-KXMUbaUQ/exec";
 function checks(){
 
 var today = new Date();
